@@ -4,5 +4,5 @@
 python -m virtualenv venv
 . venv/bin/activate
 pip install -r requirements.txt 
-FLASK_APP=main.py flask run
+MOVIE_API_KEY=KEY python main.py
 ```
